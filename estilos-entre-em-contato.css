@@ -85,7 +85,7 @@
     font-weight: 400;
     color: white;
 
-    position: flex;
+    position: absolute;
     bottom:0;
     width:100%;
 }
@@ -147,14 +147,7 @@ p{
 
 .main__parte2__imagem{
     border: 1.5px solid var(--cor-terciaria);
-    margin: 1%;
 }
-
-.main__parte2__imagem:hover{
-    border: 2.5px solid var(--cor-primaria);
-    cursor: pointer;
-}
-
 
 
 /* Responsividade */
@@ -187,35 +180,4 @@ p{
         font-size: 0.9rem ;
     }
 
-}
-
-@media screen and (min-width: 650px) and (max-width: 850px) {
-
-    .main__parte2__container{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
-        margin: 2% 10% 2% 10%;
-    }
-    
-    .main__parte2__produtos{
-        margin: 4%;
-    }
-
-}
-
-@media screen and (min-width: 851px) and (max-width: 1060px) {
-
-    .main__parte2__container{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
-        margin: 2% 3% 2% 3%;
-    }
-    
-    .main__parte2__produtos{
-        margin: 6%;
-    }
 }
